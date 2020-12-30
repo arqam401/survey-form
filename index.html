@@ -15,21 +15,21 @@
     </header>
     <main>
         <form action="#" id="survey-form">
-            <label for="" id="name-label">
+            <label class="marginBottom" for="" id="name-label">
                 <p>Name</p>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
             </label>
-            <label for="" id="email-label">
+            <label class="marginBottom" for="" id="email-label">
                 <p>Email</p>
-                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your Email" required>
             </label>
-            <label for="" id="number-label">
+            <label class="marginBottom" for="" id="number-label">
                 <p>Age (optional)</p>
-                <input type="number" name="age" max="130" min="1">
+                <input type="number" class="form-control" name="age" max="130" min="1">
             </label>
-            <label for="">
+            <label class="marginBottom" for="">
                 <p>Which option best describes your current role?</p>
-                <select name="current-role" id="dropdown" required>
+                <select name="current-role" class="form-control" id="dropdown" required>
                     <option value="" disabled selected>select current role</option>
                     <option value="student">Student</option>
                     <option value="full-time-job">Full time job</option>
@@ -37,7 +37,6 @@
                     <option value="prefer-not-to-say">Prefer not to say</option>
                     <option value="other">Other</option>
                 </select>
-
             </label>
             <p>Would you recommend freeCodeCamp to a friend?</p>
             <label for="">
@@ -50,13 +49,13 @@
                 maybe
             </label>
             <br>
-            <label for="">
+            <label class="marginBottom" for="">
                 <input type="radio" name="recommend" value="not-sure">
                 Not Sure
             </label>
-            <label for="">
-                <p>What is your favouri8te feature of freeCodeCamp?</p>
-                <select name="favourite-feature" id="" required>
+            <label class="marginBottom" for="">
+                <p>What is your favourite feature of freeCodeCamp?</p>
+                <select name="favourite-feature" class="form-control" id="" required>
                     <option value="" disabled selected>Select an option</option>
                     <option value="challenges">Challenges</option>
                     <option value="projects">Projects</option>
@@ -115,11 +114,11 @@
                 Forum
             </label>
             <br>
-            <label for="">
+            <label class="marginBottom" for="">
                 <input type="checkbox" name="improvement" value="additional-courses" id="">
                 Additional Courses
             </label>
-            <label for="">
+            <label class="marginBottom" for="">
                 <p>Any comments or suggestions?</p>
                 <textarea name="comments" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
             </label>
