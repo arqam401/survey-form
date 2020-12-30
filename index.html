@@ -14,22 +14,22 @@
         <p id='description'>Thank you for taking the time to help us improve the platform</p>
     </header>
     <main>
-        <form action="#">
-            <label for="">
+        <form action="#" id="survey-form">
+            <label for="" id="name-label">
                 <p>Name</p>
-                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
             </label>
-            <label for="">
+            <label for="" id="email-label">
                 <p>Email</p>
-                <input type="email" name="email" placeholder="Enter your Email" required>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required>
             </label>
-            <label for="">
+            <label for="" id="number-label">
                 <p>Age (optional)</p>
                 <input type="number" name="age" max="130" min="1">
             </label>
             <label for="">
                 <p>Which option best describes your current role?</p>
-                <select name="current-role" id="" required>
+                <select name="current-role" id="dropdown" required>
                     <option value="" disabled selected>select current role</option>
                     <option value="student">Student</option>
                     <option value="full-time-job">Full time job</option>
@@ -123,6 +123,8 @@
                 <p>Any comments or suggestions?</p>
                 <textarea name="comments" id="" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
             </label>
+            <br>
+            <button type="submit" id="submit">Submit</button>
         </form>
     </main>
 </body>
